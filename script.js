@@ -1,4 +1,4 @@
-import QRCode from 'https://cdn.jsdelivr.net/npm/qrcode@1.5.4/+esm';
+import QRCode from './qrcode.js';
 
 const input = document.getElementById('qr-input');
 const canvas = document.getElementById('canvas');
