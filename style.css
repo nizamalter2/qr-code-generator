@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+  padding: 28px 16px;
+  min-height: 28rem;
+  border-radius: 16px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1.5px solid lightslategray;
+}
+
+canvas {
+  border: 1.5px solid lightslategray;
+  margin: 24px auto;
+  border-radius: 16px;
+  width: 300px;
+  height: 300px;
+}
+
+.actions {
+  width: 100%;
+}
+
+.actions > button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 48px;
+  background-color: white;
+  border-radius: 16px;
+  border: 1.5px solid lightslategray;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+}
+
+.actions > button:disabled {
+  cursor: not-allowed;
+}
